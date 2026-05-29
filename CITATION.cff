@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software (this repository) and the associated article below."
+title: "Context-Dependent Model Selection for Supply Chain Forecasting: Experiment Code"
+type: software
+version: 1.0.0
+date-released: "2026-05-29"
+license: MIT
+authors:
+  - given-names: AbdelMoniem
+    family-names: Helmy
+    affiliation: "Faculty of Graduate Studies for Statistical Research, Cairo University, Cairo, Egypt"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # add ORCID before final release
+  - given-names: Muhammad
+    family-names: Mahmoud
+    affiliation: "Faculty of Computers and Artificial Intelligence, Matrouh University, Matrouh, Egypt"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # add ORCID before final release
+keywords:
+  - supply chain forecasting
+  - machine learning
+  - statistical forecasting
+  - model selection
+  - data leakage
+  - predictive analytics
+repository-code: "https://github.com/mmahmoudai/supply-chain-forecasting-comparison"
+url: "https://github.com/mmahmoudai/supply-chain-forecasting-comparison"
+doi: "10.5281/zenodo.20450114"
+preferred-citation:
+  type: article
+  title: "Context-Dependent Model Selection for Supply Chain Forecasting: A Multi-Case Comparative Study of Statistical and Machine Learning Methods"
+  authors:
+    - given-names: AbdelMoniem
+      family-names: Helmy
+    - given-names: Muhammad
+      family-names: Mahmoud
+  year: 2026
+  notes: "Manuscript under review."

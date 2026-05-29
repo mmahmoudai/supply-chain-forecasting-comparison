@@ -1,0 +1,12 @@
+# Normalise line endings to LF in the repository for all text files.
+# Git converts to the platform default in the working tree on checkout.
+* text=auto
+
+# Treat common binary artefacts as binary (future-proofing; none tracked at release).
+*.png    binary
+*.jpg    binary
+*.pdf    binary
+*.pkl    binary
+*.pt     binary
+*.cbm    binary
+*.joblib binary

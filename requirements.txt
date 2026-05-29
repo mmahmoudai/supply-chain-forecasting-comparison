@@ -1,0 +1,30 @@
+# Python dependencies for the multi-case supply-chain forecasting study.
+# Tested with Python 3.10. Pinned lower bounds reflect the versions used in the study;
+# newer compatible releases are expected to work.
+
+# --- Core scientific stack ---
+numpy>=1.23.0
+pandas>=1.5.0
+scipy>=1.10.0
+
+# --- Classical / statistical models (Naive, ETS, ARIMA(X), SARIMA(X)) ---
+statsmodels>=0.14.0
+
+# --- Machine-learning models ---
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+catboost>=1.2.0
+
+# --- Neural-network models (Deep FFNN and Shallow ANN) ---
+# These models are implemented in PyTorch and use the GPU automatically when available.
+# For CUDA-accelerated builds install the matching wheel, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch>=2.0.0
+
+# --- Visualisation ---
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# --- Utilities ---
+joblib>=1.2.0
+tqdm>=4.65.0

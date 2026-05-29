@@ -1,0 +1,27 @@
+{
+  "title": "Context-Dependent Model Selection for Supply Chain Forecasting: Experiment Code",
+  "upload_type": "software",
+  "description": "Source code accompanying the article \"Context-Dependent Model Selection for Supply Chain Forecasting: A Multi-Case Comparative Study of Statistical and Machine Learning Methods\". The repository implements a reproducible pipeline that compares classical statistical models (Naive, Seasonal Naive, ETS, ARIMA(X), SARIMA(X), Linear Regression) with machine-learning models (Random Forest, XGBoost, CatBoost, Deep FFNN, Shallow ANN) across four heterogeneous public supply-chain case studies, together with a representation-asymmetry analysis and a leakage-auditing protocol.",
+  "license": "MIT",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "supply chain forecasting",
+    "machine learning",
+    "statistical forecasting",
+    "model selection",
+    "data leakage",
+    "predictive analytics",
+    "demand forecasting"
+  ],
+  "creators": [
+    {
+      "name": "Helmy, AbdelMoniem",
+      "affiliation": "Faculty of Graduate Studies for Statistical Research, Cairo University, Cairo, Egypt"
+    },
+    {
+      "name": "Mahmoud, Muhammad",
+      "affiliation": "Faculty of Computers and Artificial Intelligence, Matrouh University, Matrouh, Egypt"
+    }
+  ]
+}
